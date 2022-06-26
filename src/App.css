@@ -12,7 +12,72 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+                        /* Navbar*/
+nav{
+  background-color: rgb(4, 4, 58);
+  display: flex;
+  align-items: center;
+}
 
+button{
+  cursor: pointer;
+}
+.search-bar{
+  display: flex;
+  justify-content: left;
+  padding: auto;
+  width: 33.33%;
+}
+
+.search-bar__search-button{
+  background-color: rgb(83, 83, 141);
+  cursor: pointer;
+}
+
+.search-bar__input{
+  background-color: rgb(83, 83, 141);
+  border: 1px solid rgb(83, 83, 141);
+  color: white;
+}
+
+.search-bar__input::placeholder{
+  color: rgb(228, 224, 224);
+}
+
+.info{
+  width: 33.33%;
+  display: flex;
+  justify-content: right;
+}
+
+.info__menu-btn{
+  background-color: rgb(4, 4, 58);
+  color: white;
+  border: 1px solid white;
+}
+
+.logo{
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+.logo__name{
+  color: white;
+  margin: auto;
+  cursor: pointer;
+}
+/* Body */
+
+.body{
+  height: 100vh;
+}
+
+/* Footer */
+
+.footer{
+  height: 30vh;
+  background-color: rgb(182, 182, 245);
+}                          
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
