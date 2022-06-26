@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-                        /* Navbar*/
+
+/* Navbar*/
+
 nav{
   background-color: rgb(4, 4, 58);
   display: flex;
@@ -74,10 +76,54 @@ button{
 
 /* Footer */
 
-.footer{
-  height: 30vh;
-  background-color: rgb(182, 182, 245);
-}                          
+footer{
+  height: auto;
+  background-color: rgb(54, 54, 114);
+  color: white;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer li{
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+
+.footer__about{
+  width: 400px;
+}
+
+.trending-guides{
+  width: 400px;
+}
+
+.trending-guides__title{
+  display: flex;
+  justify-content: center;
+}
+
+.footer__trending-guides--links{
+  display: flex;
+  font-size: 10px;
+  /* flex-direction: column; */
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
