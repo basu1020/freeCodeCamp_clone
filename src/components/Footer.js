@@ -19,48 +19,47 @@ const Footer = () => {
                             <p>Trending Guides</p>
                         </div>
                         <div className="footer__trending-guides--links">
-
                             <div className="first-section">
-                                <ul>
-                                    <li><a href=''>Zoom Screen Sharing</a></li>
-                                    <li><a href=''>Decimal Place Value</a></li>
-                                    <li><a href=''>How to Get Into BIOS</a></li>
-                                    <li><a href=''>String to Int in C++</a></li>
-                                    <li><a href=''>What is msmpeng.exe</a></li>
-                                    <li><a href=''>Facetime Not Working</a></li>
-                                    <li><a href=''>Desktop Icons Missing</a></li>
-                                    <li><a href=''>How to Copy and Paste</a></li>
-                                    <li><a href=''>Delete a Page in Word</a></li>
-                                    <li><a href=''>vcruntime140.dll Error</a></li>
-                                </ul>
+
+                                <a href=''>Zoom Screen Sharing</a>
+                                <a href=''>Decimal Place Value</a>
+                                <a href=''>How to Get Into BIOS</a>
+                                <a href=''>String to Int in C++</a>
+                                <a href=''>What is msmpeng.exe</a>
+                                <a href=''>Facetime Not Working</a>
+                                <a href=''>Desktop Icons Missing</a>
+                                <a href=''>How to Copy and Paste</a>
+                                <a href=''>Delete a Page in Word</a>
+                                <a href=''>vcruntime140.dll Error</a>
+
                             </div>
                             <div className="second-section">
-                                <ul>
-                                    <li><a href="">C++ Vector</a></li>
-                                    <li><a href="">What is CPU</a></li>
-                                    <li><a href="">IPV4 vs IPV6</a></li>
-                                    <li><a href="">What is IPTV</a></li>
-                                    <li><a href="">HTML Font Size</a></li>
-                                    <li><a href="">Change Mouse DPI</a></li>
-                                    <li><a href="">How to Make a GIF</a></li>
-                                    <li><a href=""> Git Rename Branch</a></li>
-                                    <li><a href="">Make a Video Game</a></li>
-                                    <li><a href="">CSS Media Queries</a></li>
-                                </ul>
+
+                                <a href="">C++ Vector</a>
+                                <a href="">What is CPU</a>
+                                <a href="">IPV4 vs IPV6</a>
+                                <a href="">What is IPTV</a>
+                                <a href="">HTML Font Size</a>
+                                <a href="">Change Mouse DPI</a>
+                                <a href="">How to Make a GIF</a>
+                                <a href=""> Git Rename Branch</a>
+                                <a href="">Make a Video Game</a>
+                                <a href="">CSS Media Queries</a>
+
                             </div>
                             <div className="third-section">
-                                <ul>
-                                    <li><a href="">How to Open .dat Files</a></li>
-                                    <li><a href="">Record Calls on iPhone</a></li>
-                                    <li><a href="">Ascending vs Descending</a></li>
-                                    <li><a href="">HTML Email Link Tutorial</a></li>
-                                    <li><a href="">Python List Comprehension</a></li>
-                                    <li><a href="">Password Protect Zip File</a></li>
-                                    <li><a href="">Restore Deleted Word File</a></li>
-                                    <li><a href="">Software Engineering Guide</a></li>
-                                    <li><a href="">How to Find Your IP Address</a></li>
-                                    <li><a href="">How to Find iPhone Download</a></li>
-                                </ul>
+
+                                <a href="">How to Open .dat Files</a>
+                                <a href="">Record Calls on iPhone</a>
+                                <a href="">Ascending vs Descending</a>
+                                <a href="">HTML Email Link Tutorial</a>
+                                <a href="">Python List Comprehension</a>
+                                <a href="">Password Protect Zip File</a>
+                                <a href="">Restore Deleted Word File</a>
+                                <a href="">Software Engineering Guide</a>
+                                <a href="">How to Find Your IP Address</a>
+                                <a href="">How to Find iPhone Download</a>
+
                             </div>
                         </div>
                     </div>
