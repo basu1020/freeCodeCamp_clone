@@ -57,6 +57,12 @@ button{
   background-color: rgb(4, 4, 58);
   color: white;
   border: 1px solid white;
+  border-radius: 5px;
+}
+
+.info__menu-btn:hover{
+  background-color: white;
+  color: black;
 }
 
 .logo{
@@ -72,26 +78,48 @@ button{
 /* Body */
 
 .body{
-  height: 100vh;
-  background-color: rgb(22, 22, 73);
+  min-height: 100vh;
+  background-color: rgb(31, 31, 75);
   color: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: auto;
+}
+
+.body h2{
+  display: flex;
+  font-weight:800;
+  justify-content: center;
+}
+
+.body h3{
+  display: flex;
+  font-weight: 300;
+  justify-content: center;
 }
 
 .courses{
   margin: auto;
-  width: 80%;
-  background-color: gray;
-  border: 2px solid white;
+  margin-top: 1%;
+  max-width: 550px;
+  min-width: 250px;
+  background-color: rgb(33, 46, 108);
   display: flex;
   justify-content: left;
   align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.courses:hover{
+  background-color: white;
+  color: black;
+  transition: 50ms;
 }
 
 .courses i{
-  /* height:; */
+  margin: 2%;
 }
 
 .fa-laptop{
@@ -106,7 +134,8 @@ button{
 
 footer{
   height: auto;
-  background-color: rgb(54, 54, 114);
+  background-color: rgb(47, 62, 145);
+
   color: white;
   font-size: small;
   display: flex;
