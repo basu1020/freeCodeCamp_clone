@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <div className='body'>
         <h2> Welcome to freeCodeCamp_clone</h2>
-        <h3>Courses to get you started</h3>
+        <h3>Courses to get you started (Sign in to track your progress)</h3>
         <div className="body__courses">
           <div className="courses">
             <i class="lni lni-laptop-phone"></i>

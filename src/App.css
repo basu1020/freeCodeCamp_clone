@@ -17,6 +17,7 @@
 
 nav{
   background-color: rgb(4, 4, 58);
+  height: 40px;
   display: flex;
   align-items: center;
 }
@@ -33,13 +34,13 @@ button{
 }
 
 .search-bar__search-button{
-  background-color: rgb(83, 83, 141);
+  background-color: rgb(33, 46, 108);
   cursor: pointer;
 }
 
 .search-bar__input{
-  background-color: rgb(83, 83, 141);
-  border: 1px solid rgb(83, 83, 141);
+  background-color: rgb(33, 46, 108);
+  border: 1px solid rgb(33, 46, 108);
   color: white;
 }
 
@@ -54,8 +55,10 @@ button{
 }
 
 .info__menu-btn{
+  margin: 2px;
   background-color: rgb(4, 4, 58);
   color: white;
+  font-weight: 100;
   border: 1px solid white;
   border-radius: 5px;
 }
@@ -72,6 +75,7 @@ button{
 }
 .logo__name{
   color: white;
+  font-size: 20px;
   margin: auto;
   cursor: pointer;
 }
@@ -89,7 +93,7 @@ button{
 
 .body h2{
   display: flex;
-  font-weight:800;
+  font-weight:500;
   justify-content: center;
 }
 
@@ -101,9 +105,8 @@ button{
 
 .courses{
   margin: auto;
-  margin-top: 1%;
+  margin-top: 5px;
   max-width: 550px;
-  min-width: 250px;
   background-color: rgb(33, 46, 108);
   display: flex;
   justify-content: left;
@@ -115,7 +118,6 @@ button{
 .courses:hover{
   background-color: white;
   color: black;
-  transition: 50ms;
 }
 
 .courses i{
@@ -134,7 +136,7 @@ button{
 
 footer{
   height: auto;
-  background-color: rgb(47, 62, 145);
+  background-color: rgb(34, 41, 77);
 
   color: white;
   font-size: small;
@@ -155,11 +157,11 @@ footer a{
 }
 
 .footer__about{
-  width: 600px;
+  width: 500px;
 }
 
 .trending-guides{
-  width: 600px;
+  width: 500px;
 }
 
 .trending-guides__title{
@@ -174,7 +176,7 @@ footer a{
 }
 
 .footer__trending-guides--links a {
-  font-size: 16px;
+  font-size: 13px;
   width: auto;
   margin: 5px;
   padding: 0px 10px;
@@ -183,14 +185,14 @@ footer a{
 
 .first-section{
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   margin: 0.5%;
   flex-direction: column;
 }
 
 .second-section{
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: column;
   margin: 0.5%;
 
@@ -198,7 +200,7 @@ footer a{
 
 .third-section{
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
 }

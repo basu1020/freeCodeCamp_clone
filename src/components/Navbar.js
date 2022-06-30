@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Navbar = () => {
+
+  const onClickSignIn = () => {
+    
+  }
+
   return (
     <>
     <nav>
@@ -15,7 +20,7 @@ const Navbar = () => {
         </div>
         <div className="info">
             <button className='info__menu-btn'>Menu</button>
-            <i class="fa-solid fa-fire"></i>
+            <button className="info__menu-btn">Sign in</button>
         </div>
     </nav>
     </>
