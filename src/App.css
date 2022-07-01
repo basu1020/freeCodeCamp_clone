@@ -81,6 +81,16 @@ button{
 }
 /* Body */
 
+body{
+  min-height: 100vh;
+  background-color: rgb(31, 31, 75);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: auto;
+}
+
 .body{
   min-height: 100vh;
   background-color: rgb(31, 31, 75);

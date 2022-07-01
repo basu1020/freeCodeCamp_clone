@@ -1,9 +1,15 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
+  const navigate = useNavigate()
 
   const onClickSignIn = () => {
     
+  }
+
+  const onClickDirectHome = () => {
+    navigate("/")
   }
 
   return (
@@ -14,7 +20,7 @@ const Navbar = () => {
             <input type="search" className='search-bar__input' placeholder='Search 8000+ tutorials..' name='textinput'/>
         </div>
         <div className="logo">
-            <h1 className='logo__name'>
+            <h1 className='logo__name' onClick={onClickDirectHome}>
             freeCodeCamp_clone
             </h1>
         </div>
