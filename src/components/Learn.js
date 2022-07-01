@@ -6,6 +6,7 @@ const Learn = () => {
     return (
         <>
             <div className="body">
+            <h3>Courses to get you started (Sign in to track your progress)</h3>
                 <div className="body__courses">
                     <Link className="courses" to={"/learn/responsive"}>
                         <i class="lni lni-laptop-phone"></i>

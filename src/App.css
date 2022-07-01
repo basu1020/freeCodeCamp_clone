@@ -113,6 +113,25 @@ body{
   justify-content: center;
 }
 
+.body button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  background-color: rgb(222, 184, 34);
+  color: rgb(31, 31, 75);
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px auto;
+}
+
+.body button:hover{
+  background-color: rgb(203, 169, 29);
+  
+}
+
 .courses{
   margin: auto;
   color: white;

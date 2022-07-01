@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <div className='body'>
         <h2> Welcome to freeCodeCamp_clone</h2>
-        <h3>Courses to get you started (Sign in to track your progress)</h3>
+        
         <button onClick={onClick}> Let's Get Started </button>
       </div>
     </>
