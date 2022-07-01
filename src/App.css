@@ -115,6 +115,8 @@ body{
 
 .courses{
   margin: auto;
+  color: white;
+  text-decoration: none;
   margin-top: 5px;
   max-width: 550px;
   background-color: rgb(33, 46, 108);
