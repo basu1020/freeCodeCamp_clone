@@ -12,7 +12,8 @@ const Home = () => {
     <>
       <div className='body'>
         <h2> Welcome to freeCodeCamp_clone</h2>
-        
+        <h2>Code to earn </h2>
+        <h2>Receive your certifications in NFT</h2>
         <button onClick={onClick}> Let's Get Started </button>
       </div>
     </>

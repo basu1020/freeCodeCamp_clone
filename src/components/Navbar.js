@@ -5,7 +5,7 @@ const Navbar = () => {
   const navigate = useNavigate()
 
   const onClickSignIn = () => {
-    
+   navigate("/sign-up") 
   }
 
   const onClickDirectHome = () => {
@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         <div className="info">
             <button className='info__menu-btn'>Menu</button>
-            <button className="info__menu-btn">Sign in</button>
+            <button className="info__menu-btn" onClick={onClickSignIn}>Sign in</button>
         </div>
     </nav>
     </>

@@ -5,6 +5,7 @@ import Home from './components/Home';
 import {
   BrowserRouter, Routes, Route
 } from "react-router-dom"
+import LoadingBar from 'react-top-loading-bar';
 import Learn from './components/Learn';
 import Python from './components/Python';
 import BackEnd from './components/BackEnd';
@@ -14,6 +15,7 @@ import Responsive from './components/Responsive';
 import Javascript from './components/Javascript';
 import Frontend from './components/Frontend';
 import DataVis from './components/DataVis';
+import Signup from './components/Signup';
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
           <Route exact path='/learn/front-end' element={<Frontend />} />
           <Route exact path='/learn/data-visualisation' element={<DataVis />} />
           <Route exact path='/learn/python' element={<Python />} />
+          <Route exact path='/sign-up' element={<Signup />}/>
         </Routes>
         <Footer />
       </BrowserRouter>
