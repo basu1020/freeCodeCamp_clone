@@ -23,8 +23,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home/>} />
-          <Route exact path='/learn' element={<Learn/>} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path='/learn' element={<Learn />} />
           <Route exact path='/learn/back-end' element={<BackEnd />} />
           <Route exact path='/learn/information-security' element={<InfoSec />} />
           <Route exact path='/learn/machine-learning' element={<MLearning />} />
@@ -33,7 +33,7 @@ function App() {
           <Route exact path='/learn/front-end' element={<Frontend />} />
           <Route exact path='/learn/data-visualisation' element={<DataVis />} />
           <Route exact path='/learn/python' element={<Python />} />
-          <Route exact path='/sign-up' element={<Signup />}/>
+          <Route exact path='/sign-up' element={<Signup />} />
         </Routes>
         <Footer />
       </BrowserRouter>
