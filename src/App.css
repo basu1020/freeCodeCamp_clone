@@ -211,6 +211,12 @@ footer a{
   justify-content: center;
 }
 
+.darker{
+  background-color: rgb(33, 46, 108);
+  color: azure;
+  padding: 1%;
+}
+
 .footer__trending-guides--links{
   display: flex;
   /* justify-content: center; */
