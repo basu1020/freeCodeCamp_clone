@@ -73,6 +73,7 @@ button{
   display: flex;
   justify-content: center;
 }
+
 .logo__name{
   color: white;
   font-size: 20px;
@@ -211,10 +212,26 @@ footer a{
   justify-content: center;
 }
 
+.container-dark{
+  display: flex;
+  align-items: center;
+}
+
 .darker{
   background-color: rgb(33, 46, 108);
   color: azure;
-  padding: 1%;
+  padding: 0.5%;
+}
+
+.darker-instructions{
+  background-color: #282c34;
+  height: 60vh;
+  width: 45vw;
+  color: rgb(202, 205, 208);
+}
+
+.darker-instructions__text{
+  margin: 3px;
 }
 
 .footer__trending-guides--links{
