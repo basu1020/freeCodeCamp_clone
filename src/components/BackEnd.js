@@ -9,15 +9,15 @@ const BackEnd = () => {
         <div className='darker'>
           <div className="darker-instructions">
             <div className="darker-instructions__text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, illo. Mollitia, molestiae quod odit facere odio pariatur officiis facilis accusantium! Quaerat commodi tempora nisi, quis quam recusandae minus soluta beatae magni amet totam. Numquam.</p>
+              write a funciton that takes two integer and returns the sum
             </div>
           </div>
         </div>
         <div className='darker'>
           <Codemirror
             theme={"dark"}
-            height={"60vh"}
-            width={"42vw"}
+            height={"90vh"}
+            width={"47vw"}
             extensions={[javascript({ jsx: true })]}
           />
         </div>

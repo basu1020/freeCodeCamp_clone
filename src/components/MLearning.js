@@ -2,7 +2,15 @@ import React from 'react'
 
 const MLearning = () => {
   return (
-    <div className='body'>MLearning</div>
+    <>
+      <div className="darker">
+        <CodeMirror
+          height='60vh'
+          theme={"dark"}
+          extensions={[python()]}
+        />
+      </div>
+    </>
   )
 }
 

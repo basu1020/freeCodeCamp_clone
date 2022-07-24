@@ -4,14 +4,25 @@ import { javascript } from '@codemirror/lang-javascript';
 
 function Javascript() {
   return (
-    <div className="darker">
-        <CodeMirror
-          value="console.log('hello world!');"
-          height="60vh"
-          theme={"dark"}
-          extensions={[javascript({ jsx: true })]}
-        />
-    </div>
+    <>
+      <div className="container-dark">
+        <div className='darker'>
+          <div className="darker-instructions">
+            <div className="darker-instructions__text">
+              write a funciton that takes two integer and returns the sum
+            </div>
+          </div>
+        </div>
+        <div className='darker'>
+          <Codemirror
+            theme={"dark"}
+            height={"90vh"}
+            width={"47vw"}
+            extensions={[javascript({ jsx: true })]}
+          />
+        </div>
+      </div>
+    </>
   );
 }
 

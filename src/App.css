@@ -215,18 +215,22 @@ footer a{
 .container-dark{
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: rgb(33, 46, 108);
 }
 
-.darker{
-  background-color: rgb(33, 46, 108);
+.darker{ 
   color: azure;
-  padding: 0.5%;
+}
+
+.darker-instructions__text p{
+  margin: 0px;
 }
 
 .darker-instructions{
   background-color: #282c34;
-  height: 60vh;
-  width: 45vw;
+  height: 90vh;
+  width: 47vw;
   color: rgb(202, 205, 208);
 }
 
